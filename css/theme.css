@@ -10045,14 +10045,14 @@ html {
     bottom: 0;
     left: 0;
     right: 0;
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(63, 63, 63, 0.877);
     color: #fff;
-    padding: 10px 0;
+    padding: 7px 0;
     z-index: 1000;
-    border-top: 3px solid #00b93e;
+    border-top: 2px solid #00b93e;
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3);
 }
-.bh-position-default { padding-bottom: 80px; }
+.bh-position-default { padding-bottom: 70px; }
 
 .bh-footer a {
   color: #444444;
