@@ -10045,16 +10045,14 @@ html {
     bottom: 0;
     left: 0;
     right: 0;
-    background: #444444;
+    background: rgba(0, 0, 0, 0.8);
     color: #fff;
     padding: 10px 0;
     z-index: 1000;
+    border-top: 3px solid #00b93e;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3);
 }
-
-/* Добавим отступ для основного контента, чтобы он не перекрывался футером */
-.bh-position-default {
-    padding-bottom: 60px;
-}
+.bh-position-default { padding-bottom: 80px; }
 
 .bh-footer a {
   color: #444444;
