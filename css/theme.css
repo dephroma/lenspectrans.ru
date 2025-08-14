@@ -10039,28 +10039,23 @@ html {
     padding: 0 25px;
   }
 }
-/*
- * Footer
- */
-/* Добавляем стили для футера без отступов */
+
 .bh-footer {
-    margin: 0;
-    padding: 10px 0;
-    background: #000;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #444444;
     color: #fff;
+    padding: 10px 0;
+    z-index: 1000;
 }
 
-/* Убираем возможные отступы у контейнера внутри футера */
-.bh-footer .uk-container {
-    padding-left: 0;
-    padding-right: 0;
+/* Добавим отступ для основного контента, чтобы он не перекрывался футером */
+.bh-position-default {
+    padding-bottom: 60px;
 }
 
-/* Убираем отступы у body и html для точного позиционирования */
-html, body {
-    margin: 0;
-    padding: 0;
-}
 .bh-footer a {
   color: #444444;
 }
