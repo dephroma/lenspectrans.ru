@@ -10042,12 +10042,24 @@ html {
 /*
  * Footer
  */
+/* Добавляем стили для футера без отступов */
 .bh-footer {
-  position: relative;
-  padding: 10px 0;
-  border-top: 2px solid #00b93e;
-  color: #fff;
-  background: #333;
+    margin: 0;
+    padding: 10px 0;
+    background: #000;
+    color: #fff;
+}
+
+/* Убираем возможные отступы у контейнера внутри футера */
+.bh-footer .uk-container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* Убираем отступы у body и html для точного позиционирования */
+html, body {
+    margin: 0;
+    padding: 0;
 }
 .bh-footer a {
   color: #444444;
